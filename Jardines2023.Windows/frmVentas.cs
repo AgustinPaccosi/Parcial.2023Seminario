@@ -37,7 +37,7 @@ namespace Jardines2023.Windows
         {
             try
             {
-                //registros = _servicioVenta.GetVentaDtos();
+                //registros = _servicioVenta.GetVentaDtos();//
                 GridHelper.LimpiarGrilla(dgvDatos);
                 foreach (var venta in lista)
                 {
